@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DisGram": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+﻿version: "3.9"
+
+services:
+  DisGram:
+    build: .
+    image: "disgram"
+    blkio_config:
+      weight: 300
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: "1G"
